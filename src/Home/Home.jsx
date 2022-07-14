@@ -1,14 +1,14 @@
 import React from "react";
-import AddList from "../components/AddList";
-import CardList from "../components/CardList";
+import NewList from "./NewList";
+import List from "./List";
 import Header from "../components/Header";
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <AddList />
-      <CardList />
+      <NewList />
+      <List />
     </div>
   );
 };
